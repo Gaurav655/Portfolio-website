@@ -453,6 +453,9 @@ a{
   #project3{
     background-image: url(images/certificate.png);
   }
+  #project4{
+    background-image: url(images/merncertificate.jpg);
+  }
 
   /* @media (max-width:1300px) 
   {
