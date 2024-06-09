@@ -457,6 +457,94 @@ a{
     background-image: url(images/merncertificate.jpg);
   }
 
+  @media (max-width: 767px) {
+  .container {
+    width: 90%;
+    padding: 0 15px;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding-top: 1rem;
+  }
+
+  .logo-container {
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+
+  .logo-text {
+    margin-left: 0;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .nav-items {
+    padding: 0;
+    gap: 1rem;
+  }
+
+  .nav-items div {
+    font-size: 18px;
+  }
+
+  .hero-section {
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 1.5rem;
+    margin: 1rem auto;
+    padding: 0 0.5rem;
+    padding-bottom: 2rem;
+  }
+
+  .faded-text {
+    font-size: 3em;
+    bottom: -8%;
+    left: -5%;
+  }
+
+  .hero-section-left,
+  .hero-section-right {
+    text-align: center;
+  }
+
+  .hero-section-heading {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .hero-section-sub-heading {
+    font-size: 35px;
+    line-height: 35px;
+    text-align: center;
+  }
+
+  .hero-section-description {
+    width: 90%;
+    text-align: center;
+  }
+
+  .btn-pink {
+    font-size: 16px;
+    padding: 0.6rem 1.8rem;
+  }
+
+  .User-image img {
+    padding: 1.5rem;
+  }
+
+  .project-skill-container {
+    width: 50%;
+  }
+  .project-skill {
+    width: 10px;
+  }
+
+  
+}
+
   /* @media (max-width:1300px) 
   {
     .page-header {
